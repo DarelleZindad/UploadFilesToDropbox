@@ -1,0 +1,149 @@
+﻿
+body {
+    margin: 0%;
+    background-color: black;
+    color: gold;
+    font-family: 'Dancing Script', cursive;
+    padding: 2em;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    margin: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+div {
+    border: 1px solid white;
+    padding: 0.5em 1em;
+}
+
+#idGame {
+    padding: 0%;
+    border: none;
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    grid-row: auto;
+    grid-template-columns: 8em 1fr;
+    width: 95%;
+    margin-top: 1em;
+}
+
+input,
+button {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1em;
+    margin-right: 0.5em;
+    padding: 0em 0.5em;
+}
+
+input {
+    min-width: 2em;
+}
+
+button {
+    border-radius: 0.2em;
+    margin: 2px;
+}
+
+#idGuess {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-between;
+}
+
+
+
+#addStuffHere {
+    display: none;
+}
+
+.tabletext {
+    border: none;
+    min-width: 3em;
+}
+
+td {
+    border: 1px dotted white;
+    padding: 0.1em 0.3em;
+    min-width: 0.7em;
+    border-radius: 1em;
+    min-height: 0.7em;
+}
+
+.answer {
+    width: 5px;
+    height: 5px;
+}
+
+label {
+    width: 10em;
+}
+
+.inGuess {
+    border: none;
+}
+
+.codeToAnswer {
+    border: none;
+    display: flex;
+}
+
+input[type=checkbox] {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(2);
+    /* IE */
+    -moz-transform: scale(2);
+    /* FF */
+    -webkit-transform: scale(2);
+    /* Safari and Chrome */
+    -o-transform: scale(2);
+    /* Opera */
+    transform: scale(2);
+}
+
+.flex {
+    display: flex;
+}
+
+.flexwrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* a:visited{
+    color: seagreen;
+} */
+
+.bibelvers {
+    /*generelle Formatierung, die für den gesmten Bibelvers-Bereich gilt*/
+    border-style: dashed;
+    border-width: 3pt;
+    border-color: blueviolet;
+    padding: 0.5em;
+    color: darkgray;
+}
+
+    .bibelvers p:first-child {
+        /*Formatierung, die nur für das erste Element im Bibelvers gilt
+    (erster <p> = Bibelstelle*/
+        color: peachpuff;
+        font-weight: bold;
+    }
+
+    .bibelvers p:last-child {
+        /*Formatierung für das letzte Element
+    (letzter <p> = Übersetzung)*/
+        color: greenyellow;
+        text-align: right;
+    }

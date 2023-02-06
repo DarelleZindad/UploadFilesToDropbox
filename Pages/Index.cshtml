@@ -1,0 +1,11 @@
+﻿@page
+@model UploadFilesToBB05022023.Pages.IndexModel
+@{
+    Layout = "_Layout";
+}
+<p>test, test</p>
+<form class="flexwrap" method="post" enctype="multipart/form-data">
+    <label>Upload File</label>
+    <input type="file"  name="file"  /> @*the name is the same name as the parameter in the function!*@
+    <button type="submit">Upload</button>
+</form>
