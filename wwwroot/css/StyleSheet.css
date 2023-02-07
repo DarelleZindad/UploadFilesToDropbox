@@ -26,18 +26,6 @@ div {
     padding: 0.5em 1em;
 }
 
-#idGame {
-    padding: 0%;
-    border: none;
-    display: grid;
-    margin-right: auto;
-    margin-left: auto;
-    grid-row: auto;
-    grid-template-columns: 8em 1fr;
-    width: 95%;
-    margin-top: 1em;
-}
-
 input,
 button {
     font-family: 'Dancing Script', cursive;
@@ -55,18 +43,6 @@ button {
     margin: 2px;
 }
 
-#idGuess {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: space-between;
-}
-
-
-
-#addStuffHere {
-    display: none;
-}
 
 .tabletext {
     border: none;
@@ -94,10 +70,7 @@ label {
     border: none;
 }
 
-.codeToAnswer {
-    border: none;
-    display: flex;
-}
+
 
 input[type=checkbox] {
     /* Double-sized Checkboxes */
@@ -121,29 +94,9 @@ input[type=checkbox] {
     flex-wrap: wrap;
 }
 
-/* a:visited{
+ a:visited{
     color: seagreen;
-} */
+} 
 
-.bibelvers {
-    /*generelle Formatierung, die für den gesmten Bibelvers-Bereich gilt*/
-    border-style: dashed;
-    border-width: 3pt;
-    border-color: blueviolet;
-    padding: 0.5em;
-    color: darkgray;
-}
 
-    .bibelvers p:first-child {
-        /*Formatierung, die nur für das erste Element im Bibelvers gilt
-    (erster <p> = Bibelstelle*/
-        color: peachpuff;
-        font-weight: bold;
-    }
 
-    .bibelvers p:last-child {
-        /*Formatierung für das letzte Element
-    (letzter <p> = Übersetzung)*/
-        color: greenyellow;
-        text-align: right;
-    }
