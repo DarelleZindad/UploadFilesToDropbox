@@ -16,9 +16,9 @@ namespace UploadFilesToBB05022023.Pages
            
         }
 
-        public ErrorModel(string errorMessage)
+        public ErrorModel(/*string errorMessage*/)
         {
- ErrorMessage = errorMessage;
+ //ErrorMessage = errorMessage;
         }
     }
 }
