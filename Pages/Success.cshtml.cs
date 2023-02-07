@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace UploadFilesToBB05022023.Pages
 {
-    public class WebForm1Model : PageModel
+    public class SuccessModel : PageModel
     {
         public void OnGet()
         {
